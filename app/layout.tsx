@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: 'Senior Software Engineer at Klarna. Personal website and portfolio.',
   },
   icons: {
-    icon: '/favicon.svg',
+    icon: '/favicon.png',
   },
 };
 

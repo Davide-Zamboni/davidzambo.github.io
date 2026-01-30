@@ -15,7 +15,7 @@ export default function About() {
         <h2>Background</h2>
         <p>
           I specialize in backend development, with extensive experience in fintech 
-          and startup environments.
+          and startup-like environments.
         </p>
         
         <p>

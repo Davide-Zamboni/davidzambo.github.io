@@ -31,7 +31,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: ./node_modules/.bin/next build
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
