@@ -1,16 +1,39 @@
-/* CSS Variables - High contrast dark theme with Geist */
+/* CSS Variables - Dark theme (default) */
 :root {
   --bg-primary: #0d0d0d;
   --bg-secondary: #161616;
   --text-primary: #f5f5f7;
   --text-secondary: #a1a1a6;
+  --text-tertiary: rgba(255, 255, 255, 0.5);
   --text-muted: #6e6e73;
   --accent: #f0e8c8;
   --accent-hover: #fffbeb;
   --border: #2a2a2a;
   --shadow: rgba(0, 0, 0, 0.5);
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-bg-hover: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.06);
+  --card-border-hover: rgba(255, 255, 255, 0.12);
   --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: var(--font-geist-mono), 'Fira Code', 'Consolas', monospace;
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f7;
+  --text-primary: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --text-tertiary: rgba(0, 0, 0, 0.5);
+  --text-muted: #a1a1a6;
+  --accent: #8b7355;
+  --accent-hover: #6b5740;
+  --border: #e5e5e5;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --card-bg: rgba(0, 0, 0, 0.02);
+  --card-bg-hover: rgba(0, 0, 0, 0.04);
+  --card-border: rgba(0, 0, 0, 0.08);
+  --card-border-hover: rgba(0, 0, 0, 0.15);
 }
 
 /* Reset and base styles */
@@ -126,7 +149,7 @@ pre code {
 /* Selection */
 ::selection {
   background-color: var(--accent);
-  color: white;
+  color: var(--bg-primary);
 }
 
 /* Scrollbar */

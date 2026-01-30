@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import ThemeToggle from './ThemeToggle';
 import styles from './Header.module.css';
 
 const navItems = [
@@ -17,9 +18,12 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
-        <Link href="/" className={styles.logo}>
-          davide zamboni
-        </Link>
+        <div className={styles.topRow}>
+          <Link href="/" className={styles.logo}>
+            davide zamboni
+          </Link>
+          <ThemeToggle />
+        </div>
         <div className={styles.links}>
           {navItems.map((item, index) => (
             <span key={item.href}>
