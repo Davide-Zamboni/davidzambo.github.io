@@ -35,13 +35,13 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className={styles.projects}>
+    <section className={`${styles.projects} stagger`}>
       <h1>Projects</h1>
       <p className={styles.subtitle}>
         A selection of projects I&apos;ve worked on, from mobile apps to research tools.
       </p>
       
-      <div className={`${styles.grid} stagger`}>
+      <div className={styles.grid}>
         {projects.map((project) => (
           <ProjectCard
             key={project.title}

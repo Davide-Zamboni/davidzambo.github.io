@@ -19,8 +19,7 @@
 }
 
 .more {
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
+  padding-top: 0.5rem;
 }
 
 .more p {

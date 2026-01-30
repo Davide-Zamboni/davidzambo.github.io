@@ -8,23 +8,17 @@ export const metadata = {
 
 export default function About() {
   return (
-    <section className={styles.about}>
+    <section className={`${styles.about} stagger`}>
       <h1>About</h1>
       
       <div className={styles.content}>
         <h2>Background</h2>
         <p>
-          I specialize in backend development, with extensive experience in fintech 
-          and startup-like environments.
+          I specialize in backend development, with extensive experience in fintech and startup&#8209;like environments.
         </p>
         
         <p>
-          I hold a degree in Computer Science from the University of Verona, 
-          where I was part of the{' '}
-          <a href="https://cisd.di.univr.it/" target="_blank" rel="noopener noreferrer">
-            Cyber-Physical & IoT System Design (CISD)
-          </a>
-          {' '}research group, developing IoT systems using Wi-Fi signals for presence detection.
+          I hold a degree in Computer Science from the University of Verona, where I was part of the <a href="https://cisd.di.univr.it/" target="_blank" rel="noopener noreferrer">Cyber&#8209;Physical &amp; IoT System Design (CISD)</a> research group, developing IoT systems using Wi&#8209;Fi signals for presence detection.
         </p>
         
         <h2>Skills</h2>
@@ -38,23 +32,17 @@ export default function About() {
         
         <h2>Research</h2>
         <p>
-          Co-authored{' '}
-          <a href="https://scholar.google.com/citations?hl=en&user=0obyHNoAAAAJ" target="_blank" rel="noopener noreferrer">
-            &quot;Non-Invasive Monitoring of Alzheimer&apos;s patients through WiFi Channel State Information&quot;
-          </a>
-          {' '}(IEEE IWASI 2023), achieving 98% precision in presence detection.
+          Co-authored <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0obyHNoAAAAJ&citation_for_view=0obyHNoAAAAJ:u5HHmVD_uO8C" target="_blank" rel="noopener noreferrer">&quot;Non&#8209;Invasive Monitoring of Alzheimer&apos;s patients through WiFi Channel State Information&quot;</a> (IEEE IWASI 2023), achieving 98% precision in presence detection.
         </p>
         
         <h2>Beyond Code</h2>
         <p>
-          When I&apos;m not coding, I enjoy exploring personal finance, working on self-development, 
-          and playing videogames.
+          When I&apos;m not coding, I enjoy exploring personal finance, working on self&#8209;development, and playing videogames.
         </p>
         
         <h2>Get in Touch</h2>
         <p>
-          I&apos;m always happy to connect with fellow developers, researchers, or anyone 
-          interested in technology. Feel free to reach out!
+          I&apos;m always happy to connect with fellow developers, researchers, or anyone interested in technology. Feel free to reach out!
         </p>
       </div>
       
