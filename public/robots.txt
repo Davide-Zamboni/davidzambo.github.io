@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://davidzambo.github.io/sitemap.xml
+Sitemap: https://davidezamboni.com/sitemap.xml

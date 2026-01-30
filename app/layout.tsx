@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Davide Zamboni | Software Developer Engineer',
     description: 'Senior Software Engineer at Klarna. Personal website and portfolio.',
-    url: 'https://davidzambo.github.io',
+    url: 'https://davidezamboni.com',
     siteName: 'Davide Zamboni',
     type: 'website',
     locale: 'en_US',

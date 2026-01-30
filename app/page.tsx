@@ -31,9 +31,9 @@ export default function Home() {
         
         <p>
           Feel free to explore my{' '}
-          <a href="/projects">projects</a>
+          <a href="/projects/">projects</a>
           {' '}or learn more{' '}
-          <a href="/about">about me</a>.
+          <a href="/about/">about me</a>.
         </p>
       </div>
       

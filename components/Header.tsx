@@ -6,8 +6,8 @@ import styles from './Header.module.css';
 
 const navItems = [
   { href: '/', label: 'home' },
-  { href: '/about', label: 'about' },
-  { href: '/projects', label: 'projects' },
+  { href: '/about/', label: 'about' },
+  { href: '/projects/', label: 'projects' },
 ];
 
 export default function Header() {
@@ -25,7 +25,7 @@ export default function Header() {
               <Link
                 href={item.href}
                 className={`${styles.link} ${
-                  pathname === item.href ? styles.active : ''
+                  pathname === item.href || pathname === item.href.slice(0, -1) ? styles.active : ''
                 }`}
               >
                 {item.label}
