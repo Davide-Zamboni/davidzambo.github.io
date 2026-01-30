@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className={styles.greeting}>Hi!</h1>
       
       <p>
-        I&apos;m <strong>Davide</strong>, an Italian Software Engineer currently working at <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer">Klarna</a>.
+        I&apos;m <strong>Davide</strong>, an Italian Software Engineer currently working at <span style={{whiteSpace: 'nowrap'}}><a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer">Klarna</a>.</span>
       </p>
       
       <p>
