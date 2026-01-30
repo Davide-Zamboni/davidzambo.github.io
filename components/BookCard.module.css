@@ -35,9 +35,16 @@
   font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin: 0 0 0.4rem 0;
+  margin: 0 0 0.25rem 0;
   padding-right: 1.5rem;
   transition: color 0.2s ease;
+}
+
+.author {
+  font-size: 0.85rem;
+  color: var(--text-tertiary, rgba(255, 255, 255, 0.5));
+  margin: 0 0 0.5rem 0;
+  font-style: italic;
 }
 
 .description {

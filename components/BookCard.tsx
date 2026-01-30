@@ -2,11 +2,12 @@ import styles from './BookCard.module.css';
 
 interface BookCardProps {
   title: string;
+  author: string;
   description: string;
   url: string;
 }
 
-export default function BookCard({ title, description, url }: BookCardProps) {
+export default function BookCard({ title, author, description, url }: BookCardProps) {
   return (
     <a
       href={url}
@@ -15,6 +16,7 @@ export default function BookCard({ title, description, url }: BookCardProps) {
       className={styles.card}
     >
       <h3 className={styles.title}>{title}</h3>
+      <p className={styles.author}>{author}</p>
       <p className={styles.description}>{description}</p>
       <div className={styles.arrow}>
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
