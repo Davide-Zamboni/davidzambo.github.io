@@ -9,17 +9,13 @@
   color: var(--text-primary);
 }
 
-.intro {
-  max-width: 100%;
-}
-
-.intro p {
+.hero p {
   font-size: 1.05rem;
   line-height: 1.8;
   margin-bottom: 1.25rem;
 }
 
-.intro strong {
+.hero strong {
   color: var(--text-primary);
   font-weight: 600;
 }
@@ -33,7 +29,7 @@
     font-size: 2rem;
   }
   
-  .intro p {
+  .hero p {
     font-size: 1rem;
   }
 }

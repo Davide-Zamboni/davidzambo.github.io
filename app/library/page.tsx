@@ -96,13 +96,13 @@ const categories = [
 
 export default function Library() {
   return (
-    <section className={styles.library}>
+    <section className={`${styles.library} stagger`}>
       <h1>Library</h1>
       <p className={styles.subtitle}>
         Books I&apos;ve read and recommend.
       </p>
       
-      <div className="stagger">
+      <div>
         {categories.map((category) => (
           <div key={category.name} className={styles.category}>
             <h2 className={styles.categoryTitle}>{category.name}</h2>

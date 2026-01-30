@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function About() {
   return (
-    <section className={styles.about}>
+    <section className={`${styles.about} stagger`}>
       <h1>About</h1>
       
       <div className={styles.content}>
