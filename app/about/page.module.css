@@ -1,0 +1,60 @@
+.about {
+  padding: 1rem 0 4rem;
+}
+
+.about h1 {
+  margin-bottom: 2rem;
+}
+
+.content {
+  max-width: 100%;
+}
+
+.content h2 {
+  font-size: 1.35rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.content h2:first-child {
+  margin-top: 0;
+}
+
+.content p {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 1.02rem;
+}
+
+.list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .about {
+    padding: 0.5rem 0 3rem;
+  }
+  
+  .content p,
+  .list li {
+    font-size: 0.95rem;
+  }
+}

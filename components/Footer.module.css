@@ -1,0 +1,11 @@
+.footer {
+  margin-top: auto;
+  padding: 3rem 0 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.text {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0;
+}

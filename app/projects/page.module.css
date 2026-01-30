@@ -1,0 +1,47 @@
+.projects {
+  padding: 1rem 0 4rem;
+}
+
+.projects h1 {
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.more {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.more p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .projects {
+    padding: 0.5rem 0 3rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+}
