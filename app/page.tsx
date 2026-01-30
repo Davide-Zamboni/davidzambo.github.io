@@ -8,7 +8,8 @@ export default function Home() {
       
       <div className={styles.intro}>
         <p>
-          I&apos;m <strong>Davide</strong>, a Senior Software Engineer at{' '}
+          I&apos;m <strong>Davide</strong>, an Italian Software Engineer currently 
+          working at{' '}
           <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer">
             Klarna
           </a>
@@ -16,24 +17,23 @@ export default function Home() {
         </p>
         
         <p>
-          I specialize in backend development, building scalable microservices and 
-          cloud infrastructure. I&apos;m passionate about writing clean code and 
-          delivering value-driven solutions.
-        </p>
-        
-        <p>
-          Previously, I studied at the University of Verona, where I was part of the{' '}
-          <a href="https://cisd.di.univr.it/" target="_blank" rel="noopener noreferrer">
-            Cyber-Physical & IoT System Design (CISD)
+          I&apos;ve been lucky enough to work for some of the most innovative fintech 
+          companies in Europe, like{' '}
+          <a href="https://www.satispay.com" target="_blank" rel="noopener noreferrer">
+            Satispay
           </a>
-          {' '}research group.
+          {' '}and{' '}
+          <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer">
+            Klarna
+          </a>. I love building backend systems, designing APIs, and 
+          figuring out how to make things scale.
         </p>
         
         <p>
-          Feel free to explore my{' '}
-          <a href="/projects/">projects</a>
-          {' '}or learn more{' '}
-          <a href="/about/">about me</a>.
+          Feel free to read{' '}
+          <a href="/about/">about me</a>
+          {' '}or check out my{' '}
+          <a href="/projects/">projects</a>.
         </p>
       </div>
       
