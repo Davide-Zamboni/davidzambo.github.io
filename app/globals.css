@@ -1,16 +1,16 @@
-/* CSS Variables - Apple-inspired dark theme */
+/* CSS Variables - Modern dark theme with Geist */
 :root {
   --bg-primary: #1d1d1f;
   --bg-secondary: #2d2d2f;
   --text-primary: #f5f5f7;
   --text-secondary: #a1a1a6;
   --text-muted: #6e6e73;
-  --accent: #2997ff;
-  --accent-hover: #5eb5ff;
+  --accent: #e8e4d0;
+  --accent-hover: #f5f0dc;
   --border: #424245;
   --shadow: rgba(0, 0, 0, 0.4);
-  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif;
-  --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: var(--font-geist-mono), 'Fira Code', 'Consolas', monospace;
 }
 
 /* Reset and base styles */
