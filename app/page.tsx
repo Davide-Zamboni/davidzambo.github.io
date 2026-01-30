@@ -16,9 +16,9 @@ export default function Home() {
         </p>
         
         <p>
-          I have a strong foundation in computer science with experience in backend development, 
-          distributed systems, and machine learning. I&apos;m passionate about building elegant 
-          solutions to complex problems.
+          I specialize in backend development, building scalable microservices and 
+          cloud infrastructure. I&apos;m passionate about writing clean code and 
+          delivering value-driven solutions.
         </p>
         
         <p>

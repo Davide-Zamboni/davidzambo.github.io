@@ -14,49 +14,35 @@ export default function About() {
       <div className={styles.content}>
         <h2>Background</h2>
         <p>
-          I&apos;m a Senior Software Engineer at{' '}
-          <a href="https://www.klarna.com" target="_blank" rel="noopener noreferrer">
-            Klarna
-          </a>
-          , one of the world&apos;s leading fintech companies. I work on building scalable 
-          and reliable systems that power financial services for millions of users.
+          I specialize in backend development, designing and building robust microservices 
+          on AWS with Java and Spring.
         </p>
         
         <p>
-          I hold a degree in Computer Science from the University of Verona, where I was 
-          part of the{' '}
+          I hold a degree in Computer Science from the University of Verona, 
+          where I was part of the{' '}
           <a href="https://cisd.di.univr.it/" target="_blank" rel="noopener noreferrer">
             Cyber-Physical & IoT System Design (CISD)
           </a>
-          {' '}research group. I developed a strong foundation in algorithms, data structures, 
-          and software engineering principles.
+          {' '}research group, developing IoT systems using Wi-Fi signals for presence detection.
         </p>
         
-        <h2>Skills & Interests</h2>
-        <p>
-          Throughout my career, I have developed expertise in:
-        </p>
+        <h2>Skills</h2>
         <ul className={styles.list}>
-          <li>Backend development and distributed systems</li>
-          <li>Software architecture and system design</li>
-          <li>Machine learning and data analysis</li>
-          <li>Mobile application development</li>
-          <li>DevOps and cloud infrastructure</li>
+          <li>Java, Spring Framework, PostgreSQL</li>
+          <li>AWS (RDS, DynamoDB, S3, SQS, SNS, Lambda)</li>
+          <li>RESTful and event-driven microservices</li>
+          <li>CI/CD pipelines and Agile methodologies</li>
+          <li>C++, Embedded Systems, IoT</li>
         </ul>
         
+        <h2>Research</h2>
         <p>
-          I&apos;m continuously learning and exploring new technologies. I believe in writing 
-          clean, maintainable code and building systems that are both performant and reliable.
-        </p>
-        
-        <h2>Research & Publications</h2>
-        <p>
-          I have contributed to academic research during my time at the university. 
-          You can find my publications on{' '}
+          Co-authored{' '}
           <a href="https://scholar.google.com/citations?hl=en&user=0obyHNoAAAAJ" target="_blank" rel="noopener noreferrer">
-            Google Scholar
+            &quot;Non-Invasive Monitoring of Alzheimer&apos;s patients through WiFi Channel State Information&quot;
           </a>
-          .
+          {' '}(IEEE IWASI 2023), achieving 98% precision in presence detection.
         </p>
         
         <h2>Beyond Code</h2>

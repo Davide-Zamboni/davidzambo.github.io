@@ -11,7 +11,7 @@ const projects = [
     title: 'JanusLeaf',
     description: 'A mood-tracking journal app with AI-powered sentiment analysis. Write about your day, and AI gives you a score from 1-10 reflecting how positive your day was. Built with Spring Boot, Kotlin, PostgreSQL, and Android.',
     url: 'https://github.com/Davide-Zamboni/JanusLeaf',
-    tags: ['Kotlin', 'Spring Boot', 'Android', 'AI', 'PostgreSQL'],
+    tags: ['Kotlin', 'Spring Boot', 'Android', 'Swift', 'AI', 'PostgreSQL'],
   },
   {
     title: 'CSI Complete Guide',
@@ -27,9 +27,9 @@ const projects = [
   },
   {
     title: 'Seasonal Workers',
-    description: 'A Java tool with a proper UI for registering seasonal workers. Developed as part of the Software Engineering exam, featuring comprehensive documentation and a clean architecture.',
+    description: 'A full-stack Java application with MVC architecture for registering seasonal workers. Developed as part of the Software Engineering exam.',
     url: 'https://github.com/Davide-Zamboni/Seasonal-Workers',
-    tags: ['Java', 'UI', 'Software Engineering'],
+    tags: ['Java', 'MVC', 'Full Stack'],
   },
 ];
 
