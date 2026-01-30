@@ -175,7 +175,7 @@ pre code {
 .container {
   max-width: 720px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 /* Apple-inspired fade in animation */
@@ -231,6 +231,6 @@ pre code {
   }
   
   .container {
-    padding: 0 1rem;
+    padding: 0 1.25rem;
   }
 }
