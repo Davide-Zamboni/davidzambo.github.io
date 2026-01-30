@@ -2,12 +2,20 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="1011.000000pt" height="1011.000000pt" viewBox="0 0 1011.000000 1011.000000"
+ width="1011.000000pt" height="1011.000000pt" viewBox="150 100 700 700"
  preserveAspectRatio="xMidYMid meet">
 
-<!-- White rounded background -->
-<circle cx="505.5" cy="505.5" r="505.5" fill="#ffffff"/>
+<!-- Clip path - circle -->
+<defs>
+  <clipPath id="faceClip" clipPathUnits="userSpaceOnUse">
+    <circle cx="500" cy="450" r="350"/>
+  </clipPath>
+</defs>
 
+<!-- White rounded background -->
+<circle cx="500" cy="450" r="350" fill="#ffffff"/>
+
+<g clip-path="url(#faceClip)">
 <g transform="translate(0.000000,1011.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
 <path d="M5645 9236 c-110 -42 -203 -96 -332 -194 -63 -47 -36 3 48 93 45 47
@@ -265,5 +273,6 @@ c27 105 25 102 29 74 11 -81 15 -93 24 -79 5 8 9 25 9 38 0 14 8 33 17 44 14
 -9 2 -12 -2z"/>
 <path d="M7615 8286 c31 -26 84 -42 107 -33 7 3 3 6 -10 6 -12 1 -46 13 -75
 27 l-52 26 30 -26z"/>
+</g>
 </g>
 </svg>
