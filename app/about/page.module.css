@@ -42,10 +42,10 @@
 }
 
 .list li::before {
-  content: '→';
+  content: '•';
   position: absolute;
   left: 0;
-  color: var(--accent);
+  color: var(--text-muted);
 }
 
 @media (max-width: 640px) {
