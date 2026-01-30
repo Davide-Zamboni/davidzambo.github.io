@@ -14,8 +14,8 @@ export default function About() {
       <div className={styles.content}>
         <h2>Background</h2>
         <p>
-          I specialize in backend development, designing and building robust microservices 
-          on AWS with Java and Spring.
+          I specialize in backend development, with extensive experience in fintech 
+          and startup environments.
         </p>
         
         <p>
