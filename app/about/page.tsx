@@ -18,7 +18,7 @@ export default function About() {
         </p>
         
         <p>
-          I hold a degree in Computer Science from the University of Verona, where I was part of the <a href="https://cisd.di.univr.it/" target="_blank" rel="noopener noreferrer">Cyber&#8209;Physical &amp; IoT System Design (CISD)</a> research group, developing IoT systems using Wi&#8209;Fi signals for presence detection.
+          I hold a degree in Computer Science from the University of Verona, where I was part of the <a href="https://cisd.di.univr.it/profile/40/" target="_blank" rel="noopener noreferrer">Cyber&#8209;Physical &amp; IoT System Design (CISD)</a> research group, developing IoT systems using Wi&#8209;Fi signals for presence detection.
         </p>
         
         <h2>Skills</h2>
